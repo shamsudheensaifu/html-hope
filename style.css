@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url('https://images3.alphacoders.com/888/88895.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+
+.logo img{
+    width: 180px;
+    height: 100px;
+    margin-left: 40%;
+}
+nav{
+    margin-top: 0px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: transparent;
+}
+nav #icon{
+    color: white;
+}
+ul{
+    display: flex;
+    justify-content: end;
+    margin-right: 5%;
+    
+}
+li{
+
+    margin-left: 100px;
+    font-weight: bold;
+    border: 1px solid;
+    border-color: rgb(244, 235, 235);
+    background:transparent;
+    border-radius: 15px;
+    padding: 7px;
+    list-style: none;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#med{
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    text-decoration: underline;
+    font-family: 'Abril Fatface', cursi
+}
+li:hover a{
+    color: red;
+}
+p{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+} 
+.content-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.col{
+    flex: 25%;
+    margin: 20px 20px;
+    padding: px 4px;
+    border: 1px solid white;
+
+} 
+.col img{
+    width: 100%;
+    height: 520px;
+    padding: 10px;
+    vertical-align: middle;
+    
+}
+
+
+#ro{
+    margin: 15px 0px;
+    color: white;
+    font-size: 24px;
+}
+@media screen and (max-width:768px){
+    .content-section{
+        flex-direction: column;
+    }
+
+}
+@media screen and (max-width:768px){
+    p{
+        line-height: 1.4;
+        font-size: 40px;
+        color: red;
+    }
+
+}
+@media screen and (max-width:768px){
+    #med{
+        font-size: 50px;
+        color: rgb(13, 0, 255);
+    }
+
+}
+@media screen and (max-width:768px){
+    nav{
+        display: none;
+    }
+
+}
